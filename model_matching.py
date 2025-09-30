@@ -139,4 +139,5 @@ def run_matching_simulation():
             print(f"User {r+1} <> User {c+1} (Score: {scores[r][c]})")
 
 # === Start ===
-run_matching_simulation()
+if __name__ == "__main__":
+    run_matching_simulation()
